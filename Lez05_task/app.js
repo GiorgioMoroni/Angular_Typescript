@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Utente_1 = require("./Utente");
+var gio = new Utente_1.Utente("Giovanni");
+var ogg1 = new Utente_1.Oggetto("Ps5", "Console");
+var ogg2 = new Utente_1.Oggetto("Xbox", "Console");
+var ogg3 = new Utente_1.Oggetto("Switch", "Console");
+gio.addOggetto(ogg1);
+gio.addOggetto(ogg2);
+gio.addOggetto(ogg3);
+// gio.stampaUtente();
+// gio.stampaUtenteEOggetti();
+// console.log(ogg1.stampaOggetto());
+ogg1.stampaOggettoEProrpietario();
+// ogg1.stampaOggettoEProrpietario();

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var funzioni_utilita_1 = require("./funzioni_utilita");
+var Persona_1 = require("./Persona");
+console.log((0, funzioni_utilita_1.saluta)("Giovanni"));
+console.log((0, funzioni_utilita_1.somma)(4, 6));
+var gio = new Persona_1.Persona("Giovanni Pace");
+console.log(gio.stampaDettaglio());
+var val = new Persona_1.Persona("Valeria Verdi", "Via le mani dal naso", "Boh");
+console.log(val.stampaDettaglio());
